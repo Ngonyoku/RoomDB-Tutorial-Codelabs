@@ -10,6 +10,10 @@ import java.util.List;
 
 @Dao /*The interface is now Identified as a DAO for Room DB*/
 public interface WordDao {
+    /*
+     * The DAO validates the SQLite at runtime.
+     * It's also used to access data from the Room database
+     */
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insert(Word word);
