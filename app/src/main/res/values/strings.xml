@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RoomDB Codelabs</string>
+
+    <string name="hint_word">Word..</string>
+    <string name="button_save">Save</string>
+    <string name="empty_note_saved">Word not saved because its empty</string>
 </resources>
